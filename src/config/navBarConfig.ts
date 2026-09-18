@@ -36,19 +36,19 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		],
 	});
 
-	//社交及其子菜单
-	links.push({
-		name: "社交",
-		url: "#",
-		icon: "material-symbols:group",
-		children: [
-			// 友链
-			LinkPresets.Friends,
-
-			// 留言
-			LinkPresets.Guestbook,
-		],
-	});
+	// //社交及其子菜单
+	// links.push({
+	// 	name: "社交",
+	// 	url: "#",
+	// 	icon: "material-symbols:group",
+	// 	children: [
+	// 		// 友链
+	// 		LinkPresets.Friends,
+	//
+	// 		// 留言
+	// 		LinkPresets.Guestbook,
+	// 	],
+	// });
 
 	// 我的及其子菜单
 	links.push({
@@ -67,18 +67,18 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 
 			// 书签导航
 			LinkPresets.Booknav,
-
-			// 哔哩哔哩追番
-			LinkPresets.Bilibili,
-
-			// 番组计划
-			LinkPresets.Bangumi,
-
-			// VNDB
-			LinkPresets.VNDB,
-
-			// MyAnimeList
-			LinkPresets.MAL,
+			//
+			// // 哔哩哔哩追番
+			// LinkPresets.Bilibili,
+			//
+			// // 番组计划
+			// LinkPresets.Bangumi,
+			//
+			// // VNDB
+			// LinkPresets.VNDB,
+			//
+			// // MyAnimeList
+			// LinkPresets.MAL,
 		],
 	});
 
@@ -105,16 +105,16 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		children: [
 			{
 				name: "GitHub",
-				url: "https://github.com/CuteLeaf/Firefly",
+				url: "https://github.com/Super-YYQ",
 				external: true,
 				icon: "fa7-brands:github",
 			},
-			{
-				name: "Gitee",
-				url: "https://gitee.com/CuteLeaf/Firefly",
-				external: true,
-				icon: "fa7-brands:gitee",
-			},
+			// {
+			// 	name: "Gitee",
+			// 	url: "https://gitee.com/CuteLeaf/Firefly",
+			// 	external: true,
+			// 	icon: "fa7-brands:gitee",
+			// },
 			{
 				name: "Firefly文档",
 				url: "https://docs-firefly.cuteleaf.cn",

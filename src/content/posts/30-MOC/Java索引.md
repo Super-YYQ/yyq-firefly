@@ -5,7 +5,7 @@ tags:
   - index
 aliases:
   - Java
-published: 2026-08-01T08:52:01.616Z
+published: 2026-09-19T06:06:43.359Z
 draft: false
 category: moc
 ---

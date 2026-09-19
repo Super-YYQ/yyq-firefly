@@ -1,0 +1,27 @@
+{
+	"version": 1,
+	"files": [
+		"20-Knowledge/Java/Arthas诊断.md",
+		"20-Knowledge/Windows/KeePass/KeePassXC 推荐配置与使用指南.md",
+		"20-Knowledge/Windows/KeePass/KeePass密码管理.md",
+		"20-Knowledge/Windows/电脑必备软件.md",
+		"30-MOC/Java索引.md",
+		"30-MOC/Windows索引.md",
+		"30-MOC/博客索引.md",
+		"50-Tutorials/Obsidian/Obsidian 私人知识库自动发布 Quartz 与 Cloudflare Pages.md",
+		"50-Tutorials/Obsidian/Quartz 4 升级 Quartz 5 复盘.md",
+		"50-Tutorials/Windows/ChatGPT Windows 升级后 Proxifier 网络异常排查.md",
+		"50-Tutorials/Windows/Claude Code Hook 通知与提示音配置.md",
+		"50-Tutorials/Windows/Codex Claude 软件级代理设置教程.md",
+		"50-Tutorials/Windows/Codex Windows 微软商店安装包提取与手动更新.md",
+		"50-Tutorials/Windows/GitHub 提交邮箱隐私与 Git 多身份配置.md",
+		"50-Tutorials/Windows/Tampermonkey多电脑同步指南.md",
+		"50-Tutorials/Windows/Windows 使用 KeePassXC 与 SSH Agent 管理 SSH 密钥.md",
+		"50-Tutorials/博客/Hexo博客搭建.md",
+		"50-Tutorials/网络与域名/CF-Server-Monitor 部署与运维指南.md",
+		"50-Tutorials/网络与域名/DNSHE免费域名注册与Cloudflare托管教程.md",
+		"50-Tutorials/网络与域名/Debian SSH 密钥登录排障与安全加固.md",
+		"50-Tutorials/网络与域名/为 Linux.do 指定固定 DNS 与直连规则.md",
+		"50-Tutorials/网络与域名/美国 VPS 搭建 AI 专用出口 Xray REALITY 与 FlClash 分流教程.md"
+	]
+}

@@ -21,7 +21,7 @@ category: tutorial
 
 # Codex Claude 软件级代理设置教程
 
-相关笔记：[[ChatGPT Windows 升级后 Proxifier 网络异常排查]]、[[Codex Windows 微软商店安装包提取与手动更新]]、[[电脑必备软件]]
+相关笔记：[[ChatGPT Windows 升级后 Proxifier 网络异常排查]]、[[Codex Windows 微软商店安装包提取与手动更新]]、[[Git 与 GitHub SSH 代理配置教程]]、[[电脑必备软件]]
 
 ## 结论
 
@@ -350,7 +350,7 @@ http.https://github.com/.proxy=http://127.0.0.1:7890
 ```
 
 > [!warning] HTTPS 与 SSH 是两套配置
-> 这项 Git 配置只影响 `https://github.com/...` 形式的远程地址，不影响 `git@github.com:...` 形式的 SSH 地址。SSH 需要在 `~/.ssh/config` 中单独设置代理，不要把两者混为一谈。
+> 这项 Git 配置只影响 `https://github.com/...` 形式的远程地址，不影响 `git@github.com:...` 形式的 SSH 地址。SSH 需要在 `~/.ssh/config` 中通过 `ProxyCommand` 单独设置代理，完整配置见 [[Git 与 GitHub SSH 代理配置教程]]。
 
 ### Git 配了代理，为什么 `gh auth login` 仍打不开
 

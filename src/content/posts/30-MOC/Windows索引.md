@@ -5,7 +5,7 @@ tags:
   - index
 aliases:
   - Windows
-published: 2026-09-19T06:06:43.359Z
+published: 2026-09-18T00:00:00.000Z
 draft: false
 category: moc
 ---

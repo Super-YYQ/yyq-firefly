@@ -92,7 +92,16 @@ LQIP data is generated into `src/constants/lqips.json` and committed — regener
 
 ## Deployment
 
-- **Vercel** (default, `vercel.json`)
+- **Cloudflare Pages** via Git integration (production, `https://yyq-firefly.pages.dev`) — every push to `master` builds and deploys automatically
 - **Cloudflare Workers** (`wrangler.jsonc`, set `CF_WORKERS` env var)
+- **Vercel** (`vercel.json`) — kept as a fallback target
 - Static output to `dist/`
+
+GitHub Pages is intentionally not used; the GitHub Pages workflow was removed because Pages is not enabled on this repository.
+
+## Private Content Sync
+
+`src/content/posts` files tracked by `.private-content-sync.json` are generated content: the `Sync private knowledge base` workflow checks out `Super-YYQ/yyq-firefly-private` at the `source_sha` carried by the `repository_dispatch` event, verifies the checked-out SHA matches the event, syncs `publish: true` notes, scans the result for secrets, runs `pnpm check` + `pnpm type-check` + `pnpm build`, and only then commits to `master`. `scripts/sync-published-content.ts` performs the transform; `scripts/audit-synced-content.ts` is the second secret gate.
+
+Never edit synced posts in this repository — fix the source note in `yyq-firefly-private` instead. The next sync overwrites direct edits here.
 

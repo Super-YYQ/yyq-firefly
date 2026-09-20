@@ -1,4 +1,4 @@
-import { mkdir, readdir, readFile, rm, stat, writeFile } from "node:fs/promises";
+import { mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
 import {
 	dirname,
 	extname,
@@ -132,7 +132,9 @@ function parseOptions(args: string[]): SyncOptions | null {
 		output: outputPath,
 		dryRun,
 		prune,
-		manifest: resolve(manifest || join(outputPath, ".private-content-sync.json")),
+		manifest: resolve(
+			manifest || join(outputPath, ".private-content-sync.json"),
+		),
 	};
 }
 
@@ -251,10 +253,7 @@ async function collectFiles(root: string, current = root): Promise<string[]> {
 		if (entry.isDirectory() && ignoredDirectories.has(entry.name)) {
 			continue;
 		}
-		if (
-			entry.isFile() &&
-			ignoredFiles.has(entry.name.toLowerCase())
-		) {
+		if (entry.isFile() && ignoredFiles.has(entry.name.toLowerCase())) {
 			continue;
 		}
 
@@ -290,7 +289,6 @@ function parseDate(value: unknown): Date | undefined {
 function transformMarkdown(
 	source: string,
 	relativePath: string,
-	fallbackDate: Date,
 ): { content: string } | null {
 	const parsed = matter(source);
 	const data = { ...parsed.data } as Record<string, unknown>;
@@ -305,13 +303,11 @@ function transformMarkdown(
 	const published =
 		parseDate(data.published) ??
 		parseDate(data.date) ??
-		parseDate(data.created) ??
-		parseDate(data.updated) ??
-		parseDate(fallbackDate);
+		parseDate(data.created);
 	if (!published) {
 		throw new Error(
 			relativePath +
-				": published content needs a valid published, date, created, or updated field.",
+				": published content needs a valid published, date, or created field.",
 		);
 	}
 
@@ -385,12 +381,7 @@ async function syncContent(options: SyncOptions): Promise<void> {
 		}
 
 		const sourceContent = await readFile(sourcePath, "utf8");
-		const sourceStats = await stat(sourcePath);
-		const transformed = transformMarkdown(
-			sourceContent,
-			relativePath,
-			sourceStats.mtime,
-		);
+		const transformed = transformMarkdown(sourceContent, relativePath);
 		markdownCount += 1;
 
 		if (!transformed) {
@@ -405,9 +396,7 @@ async function syncContent(options: SyncOptions): Promise<void> {
 		publishedCount += 1;
 		currentFiles.add(manifestPath);
 		console.log(
-			(options.dryRun ? "[dry-run]" : "[sync]") +
-				" published: " +
-				relativePath,
+			(options.dryRun ? "[dry-run]" : "[sync]") + " published: " + relativePath,
 		);
 
 		if (!options.dryRun) {

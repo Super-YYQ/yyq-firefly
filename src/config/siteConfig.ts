@@ -51,8 +51,7 @@ export const siteConfig: SiteConfig = {
 	site_url: "https://yyq-firefly.pages.dev",
 
 	// 站点描述
-	description:
-		"YYQ 的个人知识库，用于记录学习、实践、工具、经验与长期积累。",
+	description: "YYQ 的个人知识库，用于记录学习、实践、工具、经验与长期积累。",
 
 	// 站点关键词
 	keywords: [

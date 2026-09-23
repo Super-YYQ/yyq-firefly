@@ -20,7 +20,7 @@ category: moc
 
 ## 主题说明
 
-围绕 Windows 上 Codex / Claude 等 AI 工具的软件级代理、DNS 与排障。
+围绕 Windows 上 Codex / Claude 等 AI 工具的软件级代理、DNS 与排障，以及用这些工具做前端 UI 的工作流。
 
 ## 入门
 
@@ -41,6 +41,7 @@ category: moc
 
 ## 进阶实践
 
+- [[AI前端UI设计_从零设计方向到落地工作流]] — 公开：没有设计方向时，先研究再写 UI
 - [[Obsidian 私人知识库自动发布 Quartz 与 Cloudflare Pages]] — 公开：知识库发布链路
 
 ## 相关工具

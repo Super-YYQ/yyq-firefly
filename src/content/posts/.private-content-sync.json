@@ -22,9 +22,12 @@
 		"50-Tutorials/Windows/Windows 使用 KeePassXC 与 SSH Agent 管理 SSH 密钥.md",
 		"50-Tutorials/博客/Hexo博客搭建.md",
 		"50-Tutorials/网络与域名/CF-Server-Monitor 部署与运维指南.md",
+		"50-Tutorials/网络与域名/Cloudflare Email Routing 配置域名邮箱收信.md",
 		"50-Tutorials/网络与域名/DNSHE免费域名注册与Cloudflare托管教程.md",
 		"50-Tutorials/网络与域名/Debian SSH 密钥登录排障与安全加固.md",
+		"50-Tutorials/网络与域名/Squarespace 域名迁移到 Cloudflare DNS.md",
 		"50-Tutorials/网络与域名/为 Linux.do 指定固定 DNS 与直连规则.md",
-		"50-Tutorials/网络与域名/美国 VPS 搭建 AI 专用出口 Xray REALITY 与 FlClash 分流教程.md"
+		"50-Tutorials/网络与域名/美国 VPS 搭建 AI 专用出口 Xray REALITY 与 FlClash 分流教程.md",
+		"50-Tutorials/网络与域名/通过 Google Workspace 购买域名的账单与续费核查.md"
 	]
 }

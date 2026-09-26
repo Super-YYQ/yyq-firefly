@@ -22,7 +22,7 @@ const { title, pubDate, author, sourceLink, licenseName, licenseUrl } =
 const className = Astro.props.class;
 const profileConf = profileConfig;
 const licenseConf = licenseConfig;
-const postUrl = sourceLink || decodeURIComponent(Astro.url.toString());
+const postUrl = sourceLink || decodeURI(Astro.url.toString());
 
 // 根据许可证名称匹配对应图标
 function getLicenseIcon(name: string): string {
@@ -54,9 +54,15 @@ const licenseIcon = licenseName
   <div class="transition font-bold text-black/75 dark:text-white/75">
     {title}
   </div>
-  <a href={postUrl} class="link text-(--primary) break-all">
-    {postUrl}
-  </a>
+  <current-post-link>
+    <a
+      href={sourceLink || Astro.url.pathname}
+      data-current-post-url={sourceLink ? undefined : ""}
+      class="link text-(--primary) break-all"
+    >
+      {postUrl}
+    </a>
+  </current-post-link>
   <div class="flex flex-col sm:flex-row gap-3 sm:gap-6 mt-2">
     <div>
       <div class="transition text-black/30 dark:text-white/30 text-sm">
@@ -91,3 +97,23 @@ const licenseIcon = licenseName
     class="transition text-[15rem] absolute pointer-events-none right-6 top-1/2 -translate-y-1/2 text-black/5 dark:text-white/5"
   />
 </div>
+
+<script>
+  class CurrentPostLink extends HTMLElement {
+    connectedCallback() {
+      const link = this.querySelector<HTMLAnchorElement>("[data-current-post-url]");
+      if (!link) return;
+
+      // 相对路径由浏览器按当前域名解析，站内切页后也使用新文章的路径。
+      try {
+        link.textContent = decodeURI(link.href);
+      } catch {
+        link.textContent = link.href;
+      }
+    }
+  }
+
+  if (!customElements.get("current-post-link")) {
+    customElements.define("current-post-link", CurrentPostLink);
+  }
+</script>

@@ -82,7 +82,7 @@ const osName = platformMap[process.platform] || process.platform;
 const archName = archMap[process.arch] || process.arch;
 const systemInfo = `${osName} / ${archName}`;
 
-// 站点域名（去掉协议前缀）
+// 构建时的回退值；浏览器加载后显示当前访问域名。
 const siteDomain = siteConfig.site_url
 	? siteConfig.site_url.replace(/^https?:\/\//, "").replace(/\/$/, "")
 	: "unknown";
@@ -118,12 +118,14 @@ const detailItems: {
 	label: string;
 	value: string;
 	fullWidth?: boolean;
+	isDomain?: boolean;
 }[] = [
 	{
 		icon: "material-symbols:language",
 		label: i18n(I18nKey.siteInfoDomain),
 		value: siteDomain,
 		fullWidth: true,
+		isDomain: true,
 	},
 	{
 		icon: "mdi:clover",
@@ -213,7 +215,7 @@ const detailItems: {
         <div class="grid grid-cols-2 gap-2">
           {
             detailItems.map(
-              (item: { icon: string; label: string; value: string; fullWidth?: boolean }) => (
+              (item) => (
                 <div class:list={[
                   "flex flex-col items-center gap-1 py-2 px-1 rounded-lg bg-neutral-100/60 dark:bg-neutral-800/50",
                   { "col-span-2": item.fullWidth }
@@ -225,6 +227,7 @@ const detailItems: {
                     {item.label}
                   </span>
                   <span
+                    data-site-domain={item.isDomain ? "" : undefined}
                     class:list={[
                       "text-sm font-bold text-neutral-900 dark:text-neutral-100 text-center truncate w-full",
                       { "text-xs": item.fullWidth }
@@ -260,6 +263,14 @@ const detailItems: {
 
 <script>
   class SiteInfoCollapse extends HTMLElement {
+    connectedCallback() {
+      const domain = this.querySelector<HTMLElement>("[data-site-domain]");
+      if (domain) {
+        domain.textContent = window.location.host;
+        domain.title = window.location.host;
+      }
+    }
+
     constructor() {
       super();
       const btn = this.querySelector(

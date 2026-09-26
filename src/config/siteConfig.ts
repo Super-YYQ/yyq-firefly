@@ -48,7 +48,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "读万卷书，行万里路",
 
 	// 站点 URL
-	site_url: "https://yyq-firefly.pages.dev",
+	site_url: "https://blog.qyyos.com",
 
 	// 站点描述
 	description: "YYQ 的个人知识库，用于记录学习、实践、工具、经验与长期积累。",

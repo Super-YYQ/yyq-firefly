@@ -15,7 +15,7 @@ category: tutorial
 
 适用环境：Windows 10/11、Windows OpenSSH、KeePassXC，以及已接入 Cloudflare 的域名和 Tunnel。本文沿用已有 SSH 密钥，先验证 Tunnel 登录，再关闭服务器公网 SSH 入站。
 
-相关笔记：[[Windows 使用 KeePassXC 与 SSH Agent 管理 SSH 密钥]]、[[Debian SSH 密钥登录排障与安全加固]]。
+相关笔记：[Windows 使用 KeePassXC 与 SSH Agent 管理 SSH 密钥](https://yyq-firefly.pages.dev/posts/50-tutorials/windows/windows-使用-keepassxc-与-ssh-agent-管理-ssh-密钥/)、[Debian SSH 密钥登录排障与安全加固](https://yyq-firefly.pages.dev/posts/50-tutorials/网络与域名/debian-ssh-密钥登录排障与安全加固/)。
 
 ## 1. 遇到了什么问题？
 

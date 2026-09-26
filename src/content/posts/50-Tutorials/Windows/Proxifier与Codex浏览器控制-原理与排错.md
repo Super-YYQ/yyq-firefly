@@ -16,7 +16,7 @@ category: tutorial
 
 适用环境：Windows、Proxifier v4、Codex 桌面端，以及已安装并连接浏览器扩展的 Chrome。开始前应已有可用的本地代理服务；本文处理辅助程序遗漏规则的情况，程序名和域名以读者自己的新日志为准。
 
-相关笔记：[[Codex Claude 软件级代理设置教程]]、[[ChatGPT Windows 升级后 Proxifier 网络异常排查]]。
+相关笔记：[Codex Claude 软件级代理设置教程](https://yyq-firefly.pages.dev/posts/50-tutorials/windows/codex-claude-软件级代理设置教程/)、[ChatGPT Windows 升级后 Proxifier 网络异常排查](https://yyq-firefly.pages.dev/posts/50-tutorials/windows/chatgpt-windows-升级后-proxifier-网络异常排查/)。
 
 ## 1. 遇到了什么问题？
 

@@ -11,9 +11,9 @@ tags:
   - 土耳其
   - 省钱
 updated: 2026-09-26T00:00:00.000Z
+category: 网络与服务器
 published: 2026-09-25T00:00:00.000Z
 draft: false
-category: tutorial
 ---
 
 # Google Workspace 土耳其区低价注册 com net 顶级域名教程

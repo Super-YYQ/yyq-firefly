@@ -9,9 +9,9 @@ tags:
 aliases:
   - KeePass
   - 密码管理器
+category: 系统与效率
 published: 2026-05-26T00:00:00.000Z
 draft: false
-category: knowledge
 ---
 
 # KeePass 密码管理

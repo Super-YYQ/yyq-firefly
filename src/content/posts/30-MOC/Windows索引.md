@@ -1,46 +1,38 @@
 ---
-title: Windows 索引
-updated: 2026-09-23T00:00:00.000Z
+title: 系统与效率工具导航
+updated: 2026-09-26T00:00:00.000Z
 tags:
-  - windows
-  - index
-aliases:
   - Windows
+  - 密码管理
+  - 多设备同步
+aliases:
+  - Windows 索引
+  - Windows
+category: 系统与效率
 published: 2026-09-18T00:00:00.000Z
 draft: false
-category: moc
 ---
 
-# Windows 索引
+# 系统与效率工具导航
 
-Windows 软件、效率工具与环境配置笔记。
+日常软件、密码管理与多设备同步的主要入口。先选工具，再按需要配置和进阶；AI 工具集中在 [[AI 编程工具与代理 MOC|AI 工具使用指南]]。
 
-## 软件与效率
+## 入门：选择日常工具
 
-- [[电脑必备软件]]：常用工具清单
+- [[电脑必备软件]]：常用软件与效率工具清单
+
+## 配置：密码管理与同步
+
 - [[KeePass密码管理]]：KeePass 安装、安全配置、自动输入与插件实践
-- [[KeePassXC 推荐配置与使用指南]]：KeePassXC 2.7.12 简体中文界面推荐配置、浏览器集成、TOTP/Passkey 与 SSH Agent
-
-## Codex
-
-- [[Codex Windows 微软商店安装包提取与手动更新]]：Microsoft Store 安装包提取、更新与备份
-- [[Codex Microsoft Store 更新卡住排查]]：DoSvc `0x80246008` 与商店队列停滞的一次实际排障
-- [[Codex Claude 软件级代理设置教程]]：Codex、Claude、Proxifier 的进程级代理与 DNS 排障
-- [[Codex 与 Claude Code 规则文件统一]]：用一份 `AGENTS.md` 同时维护 Codex 和 Claude Code 规则
-- [[Claude Code Hook 通知与提示音配置]]：权限确认、回答完成和错误结束时的 Windows 通知与提示音
-- [[ChatGPT Windows 升级后 Proxifier 网络异常排查]]：升级后启动、用量、侧边栏附件失败与 Proxifier DNS 链路排查
+- [[KeePassXC 推荐配置与使用指南]]：KeePassXC 配置、浏览器集成、TOTP/Passkey 与 SSH Agent
 - [[Tampermonkey多电脑同步指南]]：多台电脑间同步用户脚本、备份与冲突处理
 
-## 网络与代理
+## 进阶：用密码管理器管理 SSH 密钥
 
-- [[为 Linux.do 指定固定 DNS 与直连规则]]：Clash Verge Rev、FlClash 的 DoH 与 DIRECT 规则
-- [[美国 VPS 搭建 AI 专用出口 Xray REALITY 与 FlClash 分流教程]]：VPS 自建 Xray REALITY 与 AI 分流
+- [[Windows 使用 KeePassXC 与 SSH Agent 管理 SSH 密钥]]：用 KeePassXC 解锁密钥并交给 SSH Agent
 
-## Git 与 GitHub
+## 相关主题
 
-- [[GitHub 提交邮箱隐私与 Git 多身份配置]]：隐藏提交邮箱，并按目录自动切换公司、个人身份
-
-## 知识库发布
-
-- [[Obsidian 私人知识库自动发布 Quartz 与 Cloudflare Pages]]：从私人笔记筛选公开内容，并自动部署为静态网站
-- [[Quartz 4 升级 Quartz 5 复盘]]：Quartz 大版本迁移过程、问题排查与主题调研
+- [[AI 编程工具与代理 MOC|AI 工具使用指南]]：AI 软件安装、配置、网络排障与工作流
+- [[Cloudflare-Tunnel-SSH-Windows与KeePassXC使用教程]]：沿用本机 SSH 与 KeePassXC 习惯连接远端服务器
+- [[GitHub 提交邮箱隐私与 Git 多身份配置]]：开发时的提交邮箱保护与身份切换

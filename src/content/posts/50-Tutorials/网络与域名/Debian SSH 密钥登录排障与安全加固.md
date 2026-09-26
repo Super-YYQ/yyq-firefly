@@ -1,5 +1,6 @@
 ---
 title: Debian SSH 密钥登录排障与安全加固
+category: 网络与服务器
 updated: 2026-09-17T00:00:00.000Z
 tags:
   - SSH
@@ -13,7 +14,6 @@ aliases:
   - Windows OpenSSH 登录 Debian
 published: 2026-09-17T00:00:00.000Z
 draft: false
-category: tutorial
 ---
 
 # Debian SSH 密钥登录排障与安全加固

@@ -8,9 +8,9 @@ tags:
 aliases:
   - Codex Windows 手动更新
   - Codex 微软商店安装包提取
+category: AI 工具与实践
 published: 2026-06-02T00:00:00.000Z
 draft: false
-category: tutorial
 ---
 
 # Codex Windows 微软商店安装包提取与手动更新

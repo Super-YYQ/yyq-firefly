@@ -9,9 +9,9 @@ tags:
 aliases:
   - Obsidian 自动发布 Quartz
   - Quartz Cloudflare Pages 自动部署
+category: 知识管理与建站
 published: 2026-06-02T00:00:00.000Z
 draft: false
-category: tutorial
 ---
 
 # Obsidian 私人知识库自动发布 Quartz 与 Cloudflare Pages

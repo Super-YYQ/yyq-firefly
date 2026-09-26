@@ -13,9 +13,9 @@ aliases:
   - KeePassXC
   - KeePassXC 配置
   - KeePassXC 配置指南
+category: 系统与效率
 published: 2026-09-15T00:00:00.000Z
 draft: false
-category: knowledge
 ---
 
 # KeePassXC 推荐配置与使用指南

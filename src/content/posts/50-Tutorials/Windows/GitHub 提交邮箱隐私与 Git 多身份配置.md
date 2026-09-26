@@ -1,5 +1,6 @@
 ---
 title: GitHub 提交邮箱隐私与 Git 多身份配置
+category: 软件开发
 updated: 2026-09-11T00:00:00.000Z
 tags:
   - Git
@@ -8,7 +9,6 @@ tags:
   - 开发环境
 published: 2026-07-27T00:00:00.000Z
 draft: false
-category: tutorial
 ---
 
 # GitHub 提交邮箱隐私与 Git 多身份配置

@@ -9,9 +9,9 @@ tags:
 aliases:
   - Quartz 5 升级复盘
   - Quartz v4 升级 v5
+category: 知识管理与建站
 published: 2026-06-03T00:00:00.000Z
 draft: false
-category: tutorial
 ---
 
 # Quartz 4 升级 Quartz 5 复盘

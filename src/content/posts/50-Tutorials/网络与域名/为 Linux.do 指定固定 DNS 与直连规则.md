@@ -13,9 +13,9 @@ tags:
   - LinuxDo
   - Chrome
 updated: 2026-09-11T00:00:00.000Z
+category: 网络与服务器
 published: 2026-07-22T00:00:00.000Z
 draft: false
-category: tutorial
 ---
 
 # 为 Linux.do 指定固定 DNS 与直连规则

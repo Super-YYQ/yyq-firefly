@@ -12,9 +12,9 @@ aliases:
   - Git 代理配置
   - Git HTTPS SSH 代理
   - SSH ProxyCommand 配置
+category: 软件开发
 published: 2026-09-20T00:00:00.000Z
 draft: false
-category: tutorial
 ---
 
 相关笔记：[[Codex Claude 软件级代理设置教程]]、[[GitHub 提交邮箱隐私与 Git 多身份配置]]、[[Windows 使用 KeePassXC 与 SSH Agent 管理 SSH 密钥]]

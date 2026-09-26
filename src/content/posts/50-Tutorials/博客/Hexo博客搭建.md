@@ -6,9 +6,9 @@ tags:
   - 博客
 aliases:
   - Hexo博客
+category: 知识管理与建站
 published: 2023-07-23T00:00:00.000Z
 draft: false
-category: tutorial
 ---
 
 # Hexo + GithubPage 博客搭建

@@ -6,9 +6,9 @@ tags:
   - Squarespace
   - Cloudflare
   - DNS
+category: 网络与服务器
 published: 2026-09-25T00:00:00.000Z
 draft: false
-category: tutorial
 ---
 
 # Squarespace 域名迁移到 Cloudflare：完整实操教程

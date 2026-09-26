@@ -1,5 +1,6 @@
 ---
 title: Cloudflare Tunnel SSH：保留 Windows SSH 与 KeePassXC 的使用习惯
+category: 网络与服务器
 updated: 2026-09-26T00:00:00.000Z
 tags:
   - Windows
@@ -8,7 +9,6 @@ tags:
   - KeePassXC
 published: 2026-09-26T00:00:00.000Z
 draft: false
-category: tutorial
 ---
 
 # Cloudflare Tunnel SSH：保留 Windows SSH 与 KeePassXC 的使用习惯

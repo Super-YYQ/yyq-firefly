@@ -12,9 +12,9 @@ aliases:
   - ChatGPT Proxifier 排障
   - Codex 升级 ChatGPT 网络问题
   - Codex 侧边栏图片上传失败
+category: AI 工具与实践
 published: 2026-07-10T00:00:00.000Z
 draft: false
-category: tutorial
 ---
 
 # ChatGPT Windows 升级后 Proxifier 网络异常排查

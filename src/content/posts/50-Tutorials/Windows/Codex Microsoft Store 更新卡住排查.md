@@ -10,9 +10,9 @@ aliases:
   - Codex 商店更新卡住
   - Codex DoSvc 0x80246008
   - Codex InstallService 队列停滞
+category: AI 工具与实践
 published: 2026-09-23T00:00:00.000Z
 draft: false
-category: tutorial
 ---
 
 # Codex Microsoft Store 更新卡住排查

@@ -1,5 +1,6 @@
 ---
 title: Proxifier 为什么会影响 Codex 操控 Chrome：问题、原理与修复
+category: AI 工具与实践
 updated: 2026-09-26T00:00:00.000Z
 tags:
   - Windows
@@ -9,7 +10,6 @@ tags:
   - 网络代理
 published: 2026-09-26T00:00:00.000Z
 draft: false
-category: tutorial
 ---
 
 # Proxifier 为什么会影响 Codex 操控 Chrome：问题、原理与修复

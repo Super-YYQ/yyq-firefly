@@ -1,54 +1,47 @@
 ---
-title: AI 编程工具与代理 MOC
+title: AI 工具使用指南
+category: AI 工具与实践
 tags:
-  - moc
-  - windows
-  - 网络代理
   - Codex
-  - Claude
-updated: 2026-09-23T00:00:00.000Z
+  - Claude Code
+  - 网络代理
+  - AI
+updated: 2026-09-26T00:00:00.000Z
 ai_generated: true
 ai_reviewed: false
+aliases:
+  - AI 编程工具与代理 MOC
 published: 2026-07-19T00:00:00.000Z
 draft: false
-category: moc
 ---
 
-# AI 编程工具与代理 MOC
+# AI 工具使用指南
 
-> 主题导航：下列教程均为公开笔记。公司网络细节不进入本页。
+围绕 Codex、Claude 等 AI 工具的安装、配置、排障与实践组织阅读。基础软件与密码管理见 [[Windows索引|系统与效率工具导航]]。
 
-## 主题说明
+## 入门：安装与更新
 
-围绕 Windows 上 Codex / Claude 等 AI 工具的软件级代理、DNS 与排障，以及用这些工具做前端 UI 的工作流。
+- [[Codex Windows 微软商店安装包提取与手动更新]]：安装包提取、手动更新与备份
 
-## 入门
+## 配置：规则、通知与网络
 
-- [[电脑必备软件]] — 公开：基础工具清单
-- [[Codex Windows 微软商店安装包提取与手动更新]] — 公开：安装与更新
-- [[Codex Microsoft Store 更新卡住排查]] — 公开：商店更新队列与 DoSvc 排障
-- [[Codex 与 Claude Code 规则文件统一]] — 公开：共用一份 `AGENTS.md`
-
-## 配置
-
-- [[Codex Claude 软件级代理设置教程]] — 公开：Proxifier / 启动脚本优先方案
-- [[ChatGPT Windows 升级后 Proxifier 网络异常排查]] — 公开：升级后网络与 DNS
-- [[美国 VPS 搭建 AI 专用出口 Xray REALITY 与 FlClash 分流教程]] — 公开：AI 服务固定 VPS 出口与动态分流
+- [[Codex 与 Claude Code 规则文件统一]]：用一份规则维护两种 AI 编程工具
+- [[Claude Code Hook 通知与提示音配置]]：权限确认、回答完成与错误通知
+- [[Codex Claude 软件级代理设置教程]]：软件级代理与 DNS 配置
 
 ## 问题排查
 
-- 公司网络 / VPN / TUN 共存：私有环境笔记（不在此列出文件名），按需在 Vault 内搜索
+- [[Codex Microsoft Store 更新卡住排查]]：商店更新队列与 DoSvc 排障
+- [[ChatGPT Windows 升级后 Proxifier 网络异常排查]]：升级后的网络、用量与附件访问问题
+- [[Proxifier与Codex浏览器控制-原理与排错]]：代理规则影响浏览器控制时的原理与修复
 
 ## 进阶实践
 
-- [[AI前端UI设计_从零设计方向到落地工作流]] — 公开：没有设计方向时，先研究再写 UI
-- [[Obsidian 私人知识库自动发布 Quartz 与 Cloudflare Pages]] — 公开：知识库发布链路
+- [[AI前端UI设计_从零设计方向到落地工作流]]：从设计方向到前端实现的 AI 工作流
 
-## 相关工具
+## 相关网络基础设施
 
-- Proxifier、本地 HTTP/SOCKS 代理核心、Codex Desktop、Claude Desktop / Code
+以下文章归入“网络与服务器”，需要调整底层网络时再阅读：
 
-## 待补充
-
-- 终端-only 代理脚本模板
-- 多机同步代理规则的注意事项
+- [[为 Linux.do 指定固定 DNS 与直连规则]]：DNS 与直连规则排查
+- [[美国 VPS 搭建 AI 专用出口 Xray REALITY 与 FlClash 分流教程]]：固定 VPS 出口与 AI 服务分流

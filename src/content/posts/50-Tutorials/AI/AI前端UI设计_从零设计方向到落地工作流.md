@@ -11,9 +11,9 @@ tags:
 aliases:
   - AI 前端 UI 设计工作流
   - 从零设计方向到落地页面
+category: AI 工具与实践
 published: 2026-09-23T00:00:00.000Z
 draft: false
-category: tutorial
 ---
 
 # AI 前端 UI 设计：从零设计方向到落地工作流

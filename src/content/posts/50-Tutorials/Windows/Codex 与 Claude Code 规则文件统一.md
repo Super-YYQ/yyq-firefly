@@ -10,9 +10,9 @@ tags:
 aliases:
   - Codex Claude Code 规则统一
   - AGENTS.md 与 CLAUDE.md
+category: AI 工具与实践
 published: 2026-09-23T00:00:00.000Z
 draft: false
-category: tutorial
 ---
 
 # Codex 与 Claude Code 规则文件统一

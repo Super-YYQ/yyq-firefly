@@ -14,9 +14,9 @@ aliases:
   - AI 工具软件级代理
   - 进程级代理配置
   - GitHub CLI 代理配置
+category: AI 工具与实践
 published: 2026-06-24T00:00:00.000Z
 draft: false
-category: tutorial
 ---
 
 # Codex Claude 软件级代理设置教程

@@ -1,5 +1,6 @@
 ---
 title: CF-Server-Monitor 部署与运维指南
+category: 网络与服务器
 updated: 2026-09-17T00:00:00.000Z
 tags:
   - Cloudflare
@@ -12,7 +13,6 @@ aliases:
   - CF Server Monitor
 published: 2026-09-17T00:00:00.000Z
 draft: false
-category: tutorial
 ---
 
 # CF-Server-Monitor 部署与运维指南

@@ -12,9 +12,9 @@ tags:
   - AI
   - 网络
 updated: 2026-09-17T00:00:00.000Z
+category: 网络与服务器
 published: 2026-09-11T00:00:00.000Z
 draft: false
-category: tutorial
 ---
 
 # 用一台美国 VPS 搭建 AI 专用出口：Xray REALITY + FlClash + Mihomo 动态 AI 分流

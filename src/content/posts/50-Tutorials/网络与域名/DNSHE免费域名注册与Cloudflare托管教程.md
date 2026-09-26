@@ -13,9 +13,9 @@ tags:
   - Obsidian
   - Quartz
 updated: 2026-07-20T00:00:00.000Z
+category: 网络与服务器
 published: 2026-07-19T00:00:00.000Z
 draft: false
-category: tutorial
 ---
 
 # DNSHE 免费域名注册与 Cloudflare 托管教程

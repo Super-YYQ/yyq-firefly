@@ -10,9 +10,9 @@ tags:
   - 多设备同步
   - OneDrive
 updated: 2026-07-20T00:00:00.000Z
+category: 系统与效率
 published: 2026-07-19T00:00:00.000Z
 draft: false
-category: tutorial
 ---
 
 # Tampermonkey 多电脑同步指南

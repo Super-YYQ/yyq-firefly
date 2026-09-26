@@ -11,9 +11,9 @@ tags:
 aliases:
   - Claude Code 提示音
   - Claude Code 通知脚本
+category: AI 工具与实践
 published: 2026-08-04T00:00:00.000Z
 draft: false
-category: tutorial
 ---
 
 # Claude Code Hook 通知与提示音配置

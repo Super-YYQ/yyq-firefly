@@ -1,5 +1,6 @@
 ---
 title: Windows 使用 KeePassXC 与 SSH Agent 管理 SSH 密钥
+category: 系统与效率
 updated: 2026-09-17T00:00:00.000Z
 tags:
   - KeePassXC
@@ -12,7 +13,6 @@ aliases:
   - Windows SSH 密钥登录
 published: 2026-09-17T00:00:00.000Z
 draft: false
-category: tutorial
 ---
 
 # Windows 使用 KeePassXC 与 SSH Agent 管理 SSH 密钥

@@ -6,9 +6,9 @@ tags:
   - 诊断工具
 aliases:
   - arthas
+category: 软件开发
 published: 2023-07-24T00:00:00.000Z
 draft: false
-category: knowledge
 ---
 
 # Arthas诊断

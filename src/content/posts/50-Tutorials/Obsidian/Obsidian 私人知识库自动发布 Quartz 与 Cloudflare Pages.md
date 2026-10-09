@@ -13,8 +13,7 @@ category: 知识管理与建站
 published: 2026-06-02T00:00:00.000Z
 draft: false
 ---
-
-# Obsidian 私人知识库自动发布 Quartz 与 Cloudflare Pages
+<span id="obsidian-私人知识库自动发布-quartz-与-cloudflare-pages"></span>
 
 这套方案将私人 Obsidian 知识库作为唯一写作入口，只公开明确标记的笔记。公开内容会自动同步到 Quartz 仓库，再由 Cloudflare Pages 构建为静态网站。
 

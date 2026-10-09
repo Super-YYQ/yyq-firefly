@@ -10,8 +10,7 @@ category: 知识管理与建站
 published: 2023-07-23T00:00:00.000Z
 draft: false
 ---
-
-# Hexo + GithubPage 博客搭建
+<span id="hexo--githubpage-博客搭建"></span>
 
 基于 Hexo 博客框架搭建 GithubPage 免费的静态博客页面。
 

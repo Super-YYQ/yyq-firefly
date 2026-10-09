@@ -16,8 +16,7 @@ category: 网络与服务器
 published: 2026-09-11T00:00:00.000Z
 draft: false
 ---
-
-# 用一台美国 VPS 搭建 AI 专用出口：Xray REALITY + FlClash + Mihomo 动态 AI 分流
+<span id="用一台美国-vps-搭建-ai-专用出口xray-reality--flclash--mihomo-动态-ai-分流"></span>
 
 > [!abstract] 这篇教程解决什么问题
 > 用一台 Debian VPS 自建 **VLESS + REALITY + Vision** 出口，并在 Windows / Android 的 **FlClash（Mihomo）** 中做精细分流：

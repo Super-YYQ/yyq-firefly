@@ -6,7 +6,7 @@ tags:
   - Claude Code
   - 网络代理
   - AI
-updated: 2026-09-26T00:00:00.000Z
+updated: 2026-10-09T00:00:00.000Z
 ai_generated: true
 ai_reviewed: false
 aliases:
@@ -14,8 +14,7 @@ aliases:
 published: 2026-07-19T00:00:00.000Z
 draft: false
 ---
-
-# AI 工具使用指南
+<span id="ai-工具使用指南"></span>
 
 围绕 Codex、Claude 等 AI 工具的安装、配置、排障与实践组织阅读。基础软件与密码管理见 [[Windows索引|系统与效率工具导航]]。
 
@@ -27,6 +26,7 @@ draft: false
 
 - [[Codex 与 Claude Code 规则文件统一]]：用一份规则维护两种 AI 编程工具
 - [[Claude Code Hook 通知与提示音配置]]：权限确认、回答完成与错误通知
+- [[Windows PowerShell 配置 Claude Code 快捷命令与 UTF-8 BOM 报错修复]]：快捷启动命令与 Profile 编码排错
 - [[Codex Claude 软件级代理设置教程]]：软件级代理与 DNS 配置
 
 ## 问题排查

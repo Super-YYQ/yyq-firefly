@@ -13,8 +13,7 @@ category: 系统与效率
 published: 2026-05-26T00:00:00.000Z
 draft: false
 ---
-
-# KeePass 密码管理
+<span id="keepass-密码管理"></span>
 
 开源免费的密码管理器，支持 Windows / Android / Chrome，通过插件扩展实现自动填充、两步验证、跨平台同步。
 

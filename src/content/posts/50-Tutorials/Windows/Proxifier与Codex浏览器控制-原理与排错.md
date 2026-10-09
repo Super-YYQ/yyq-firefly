@@ -11,8 +11,7 @@ tags:
 published: 2026-09-26T00:00:00.000Z
 draft: false
 ---
-
-# Proxifier 为什么会影响 Codex 操控 Chrome：问题、原理与修复
+<span id="proxifier-为什么会影响-codex-操控-chrome问题原理与修复"></span>
 
 适用环境：Windows、Proxifier v4、Codex 桌面端，以及已安装并连接浏览器扩展的 Chrome。开始前应已有可用的本地代理服务；本文处理辅助程序遗漏规则的情况，程序名和域名以读者自己的新日志为准。
 

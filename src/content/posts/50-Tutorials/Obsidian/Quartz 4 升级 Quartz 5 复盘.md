@@ -13,8 +13,7 @@ category: 知识管理与建站
 published: 2026-06-03T00:00:00.000Z
 draft: false
 ---
-
-# Quartz 4 升级 Quartz 5 复盘
+<span id="quartz-4-升级-quartz-5-复盘"></span>
 
 本文记录一次将 Obsidian 私人知识库的 Quartz 公开站点从 Quartz 4 升级到 Quartz 5 的过程。真实仓库名、本机路径、站点域名、Secret 名称均已脱敏。
 

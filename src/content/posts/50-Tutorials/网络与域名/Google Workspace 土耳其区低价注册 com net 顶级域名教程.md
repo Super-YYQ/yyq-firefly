@@ -15,8 +15,7 @@ category: 网络与服务器
 published: 2026-09-25T00:00:00.000Z
 draft: false
 ---
-
-# Google Workspace 土耳其区低价注册 com net 顶级域名教程
+<span id="google-workspace-土耳其区低价注册-com-net-顶级域名教程"></span>
 
 > [!info] 文档说明
 > 本文保留通过 Google Workspace 注册域名、到 Squarespace 管理、取消办公套件订阅及修改 NS 的完整图文流程。原帖曾展示土耳其区约 75 里拉/年的 `.com`、`.net` 报价，并有续费仍扣 75 里拉的反馈；“约 11～14 元”是原帖当时的折算，不能当作当前或长期承诺。

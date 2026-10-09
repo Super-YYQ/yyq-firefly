@@ -17,8 +17,7 @@ category: 网络与服务器
 published: 2026-07-22T00:00:00.000Z
 draft: false
 ---
-
-# 为 Linux.do 指定固定 DNS 与直连规则
+<span id="为-linuxdo-指定固定-dns-与直连规则"></span>
 
 ## 目标
 

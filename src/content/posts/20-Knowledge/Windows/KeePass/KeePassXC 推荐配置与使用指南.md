@@ -17,8 +17,7 @@ category: 系统与效率
 published: 2026-09-15T00:00:00.000Z
 draft: false
 ---
-
-# KeePassXC 推荐配置与使用指南
+<span id="keepassxc-推荐配置与使用指南"></span>
 
 > [!info]
 > 本文按 **KeePassXC 2.7.12 简体中文界面**整理。

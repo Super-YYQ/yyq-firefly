@@ -10,8 +10,7 @@ category: 软件开发
 published: 2023-07-24T00:00:00.000Z
 draft: false
 ---
-
-# Arthas诊断
+<span id="arthas诊断"></span>
 
 阿里开源 Arthas 工具，线上诊断 Java 程序的神器。
 

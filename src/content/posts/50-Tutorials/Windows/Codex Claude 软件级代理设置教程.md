@@ -18,8 +18,7 @@ category: AI 工具与实践
 published: 2026-06-24T00:00:00.000Z
 draft: false
 ---
-
-# Codex Claude 软件级代理设置教程
+<span id="codex-claude-软件级代理设置教程"></span>
 
 相关笔记：[[ChatGPT Windows 升级后 Proxifier 网络异常排查]]、[[Codex Windows 微软商店安装包提取与手动更新]]、[[Git 与 GitHub SSH 代理配置教程]]、[[电脑必备软件]]
 

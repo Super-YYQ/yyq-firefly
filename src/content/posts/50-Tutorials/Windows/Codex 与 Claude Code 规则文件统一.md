@@ -14,8 +14,7 @@ category: AI 工具与实践
 published: 2026-09-23T00:00:00.000Z
 draft: false
 ---
-
-# Codex 与 Claude Code 规则文件统一
+<span id="codex-与-claude-code-规则文件统一"></span>
 
 相关笔记：[[Claude Code Hook 通知与提示音配置]]、[[Codex Claude 软件级代理设置教程]]
 

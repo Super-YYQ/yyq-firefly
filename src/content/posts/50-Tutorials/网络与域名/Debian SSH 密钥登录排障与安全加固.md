@@ -15,8 +15,7 @@ aliases:
 published: 2026-09-17T00:00:00.000Z
 draft: false
 ---
-
-# Debian SSH 密钥登录排障与安全加固
+<span id="debian-ssh-密钥登录排障与安全加固"></span>
 
 本文处理一种典型故障：Windows 客户端能读取 ED25519 私钥，服务器也保存了对应公钥，但 SSH 仍只允许密码认证。排查后发现 Debian 服务端的最终配置为 `PubkeyAuthentication no`。
 

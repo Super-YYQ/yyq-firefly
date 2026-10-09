@@ -10,8 +10,7 @@ category: 网络与服务器
 published: 2026-09-25T00:00:00.000Z
 draft: false
 ---
-
-# Squarespace 域名迁移到 Cloudflare：完整实操教程
+<span id="squarespace-域名迁移到-cloudflare完整实操教程"></span>
 
 > 适用场景：域名注册在 **Squarespace**，希望把 **DNS 管理权迁移到 Cloudflare**，域名本身仍留在 Squarespace 续费和持有。\
 > 本文按实际操作流程整理，并统一使用 **中文（English）** 菜单名称。

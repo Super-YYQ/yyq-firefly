@@ -16,8 +16,7 @@ category: AI 工具与实践
 published: 2026-07-10T00:00:00.000Z
 draft: false
 ---
-
-# ChatGPT Windows 升级后 Proxifier 网络异常排查
+<span id="chatgpt-windows-升级后-proxifier-网络异常排查"></span>
 
 相关笔记：[[Codex Claude 软件级代理设置教程]]、[[Codex Windows 微软商店安装包提取与手动更新]]
 

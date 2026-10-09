@@ -15,8 +15,7 @@ category: AI 工具与实践
 published: 2026-08-04T00:00:00.000Z
 draft: false
 ---
-
-# Claude Code Hook 通知与提示音配置
+<span id="claude-code-hook-通知与提示音配置"></span>
 
 在 Windows 上，Claude Code 可以通过原生 Hook 在需要权限确认、完成一轮回答或执行失败时显示系统托盘通知，并播放提示音。本次实测的最终方案不依赖第三方通知工具，也不需要更换已有 Hook 配置；只需把 `notify.ps1` 的播放实现改为同步加载并播放 Windows 自带的 WAV 文件。
 

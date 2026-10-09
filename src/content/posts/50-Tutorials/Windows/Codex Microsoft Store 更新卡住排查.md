@@ -14,8 +14,7 @@ category: AI 工具与实践
 published: 2026-09-23T00:00:00.000Z
 draft: false
 ---
-
-# Codex Microsoft Store 更新卡住排查
+<span id="codex-microsoft-store-更新卡住排查"></span>
 
 相关笔记：[[Codex Windows 微软商店安装包提取与手动更新]]、[[ChatGPT Windows 升级后 Proxifier 网络异常排查]]
 

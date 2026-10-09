@@ -17,8 +17,7 @@ category: 网络与服务器
 published: 2026-07-19T00:00:00.000Z
 draft: false
 ---
-
-# DNSHE 免费域名注册与 Cloudflare 托管教程
+<span id="dnshe-免费域名注册与-cloudflare-托管教程"></span>
 
 > [!info] 文档说明
 > 本文用于记录如何在 DNSHE 注册免费域名，并将域名托管到 Cloudflare。

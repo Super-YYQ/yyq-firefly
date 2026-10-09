@@ -14,8 +14,7 @@ aliases:
 published: 2026-09-17T00:00:00.000Z
 draft: false
 ---
-
-# CF-Server-Monitor 部署与运维指南
+<span id="cf-server-monitor-部署与运维指南"></span>
 
 CF-Server-Monitor 把监控面板部署在 Cloudflare Workers 上，使用 D1 保存数据、Durable Objects 与 WebSocket 提供实时更新；每台被监控主机运行 `cf-probe` Agent，主动向 Worker 上报状态。
 

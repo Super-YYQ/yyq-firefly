@@ -1,6 +1,6 @@
 ---
 title: 系统与效率工具导航
-updated: 2026-09-26T00:00:00.000Z
+updated: 2026-10-09T00:00:00.000Z
 tags:
   - Windows
   - 密码管理
@@ -12,8 +12,7 @@ category: 系统与效率
 published: 2026-09-18T00:00:00.000Z
 draft: false
 ---
-
-# 系统与效率工具导航
+<span id="系统与效率工具导航"></span>
 
 日常软件、密码管理与多设备同步的主要入口。先选工具，再按需要配置和进阶；AI 工具集中在 [[AI 编程工具与代理 MOC|AI 工具使用指南]]。
 
@@ -30,6 +29,11 @@ draft: false
 ## 进阶：用密码管理器管理 SSH 密钥
 
 - [[Windows 使用 KeePassXC 与 SSH Agent 管理 SSH 密钥]]：用 KeePassXC 解锁密钥并交给 SSH Agent
+
+## 问题排查
+
+- [[KeePassXC 启动闪退修复 更新 x64 Visual C++ 运行库]]：启动闪退与 Visual C++ 运行库版本排查
+- [[Windows PowerShell 配置 Claude Code 快捷命令与 UTF-8 BOM 报错修复]]：Profile 中文注释导致的启动报错
 
 ## 相关主题
 

@@ -14,8 +14,7 @@ aliases:
 published: 2026-09-17T00:00:00.000Z
 draft: false
 ---
-
-# Windows 使用 KeePassXC 与 SSH Agent 管理 SSH 密钥
+<span id="windows-使用-keepassxc-与-ssh-agent-管理-ssh-密钥"></span>
 
 本文在 Windows 10/11 上使用系统 OpenSSH Agent，并把私钥作为附件保存在 KeePassXC 数据库中。解锁数据库后，KeePassXC 将密钥加载到 Agent；SSH 客户端无需直接读取裸私钥文件。
 

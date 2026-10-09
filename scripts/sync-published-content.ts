@@ -7,6 +7,7 @@ import {
 	relative,
 	resolve,
 } from "node:path";
+import { slug } from "github-slugger";
 import matter from "gray-matter";
 
 const markdownExtensions = new Set([".md", ".mdx"]);
@@ -286,6 +287,35 @@ function parseDate(value: unknown): Date | undefined {
 	return undefined;
 }
 
+function removeLeadingTitleHeading(content: string, title: unknown): string {
+	if (typeof title !== "string" || !title.trim()) {
+		return content;
+	}
+
+	const atxHeading = content.match(
+		/^(?:[ \t]*\r?\n)* {0,3}#[ \t]+([^\r\n]*)(?:\r?\n|$)/,
+	);
+	const heading =
+		atxHeading ??
+		content.match(
+			/^(?:[ \t]*\r?\n)* {0,3}(\S[^\r\n]*)\r?\n {0,3}=+[ \t]*(?:\r?\n|$)/,
+		);
+	if (!heading) {
+		return content;
+	}
+
+	const headingTitle = (
+		atxHeading ? heading[1].replace(/[ \t]+#+[ \t]*$/, "") : heading[1]
+	).trim();
+	if (headingTitle !== title.trim()) {
+		return content;
+	}
+
+	// The page renders title separately; keep links to the former body H1 valid.
+	const newline = heading[0].includes("\r\n") ? "\r\n" : "\n";
+	return `<span id="${slug(headingTitle)}"></span>${newline}${content.slice(heading[0].length)}`;
+}
+
 function transformMarkdown(
 	source: string,
 	relativePath: string,
@@ -332,7 +362,10 @@ function transformMarkdown(
 	delete data.status;
 
 	return {
-		content: matter.stringify(parsed.content, data),
+		content: matter.stringify(
+			removeLeadingTitleHeading(parsed.content, data.title),
+			data,
+		),
 	};
 }
 

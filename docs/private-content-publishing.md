@@ -28,6 +28,14 @@ pnpm run sync:published -- --source "D:\path\to\private-content" --output "src/c
 
 输出文件会删除 `publish` 字段，并把 `published`、`date` 或 `created` 映射到 Firefly 必需的 `published` 字段。`updated` 只表示最后更新时间，不作为首次发布日期的来源。缺少合法日期的 `publish: true` 笔记会在私有库校验和公共仓同步两层都失败，同步脚本不再使用源文件修改时间兜底。`type` 会映射为 `category`。只有 Markdown/MDX 会同步，私有笔记、模板、治理目录和附件都会跳过。
 
+Firefly 页面会显示 frontmatter 的 `title`。同步时，如果正文开头的一级标题与 `title` 完全相同，会将这个重复标题替换为保留原锚点的空元素，避免桌面和移动端重复显示标题。支持 `# 标题` 和 Setext 一级标题；不同标题、其他章节及代码示例不受影响，私有库原文也保持不变。
+
+修改同步脚本后，可运行标题处理的回归检查：
+
+```powershell
+pnpm exec tsx --test scripts/sync-published-content.test.ts
+```
+
 提交前，同步工作流会对 `src/content/posts` 中实际生成的内容执行第二道 Secret 扫描（`scripts/audit-synced-content.ts`）。私库扫描覆盖全部文本，公共仓这道扫描只看即将公开的内容，high 和 medium 风险都会阻止提交。随后依次运行 `pnpm check`、`pnpm type-check` 和完整 `pnpm build`，全部通过才会提交，保证公共仓的同步 commit 已经是经过生产构建验证的可部署快照。
 
 `--prune` 使用 `src/content/posts/.private-content-sync.json` 记录同步文件。下次同步时，如果源文件不再是 `publish: true`，只删除 manifest 中登记的对应公共文件，不删除演示文章或其他人工内容。

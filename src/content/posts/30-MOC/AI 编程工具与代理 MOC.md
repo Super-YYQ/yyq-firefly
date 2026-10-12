@@ -28,6 +28,7 @@ draft: false
 - [[Claude Code Hook 通知与提示音配置]]：权限确认、回答完成与错误通知
 - [[Windows PowerShell 配置 Claude Code 快捷命令与 UTF-8 BOM 报错修复]]：快捷启动命令与 Profile 编码排错
 - [[Codex Claude 软件级代理设置教程]]：软件级代理与 DNS 配置
+- [[公司网络下的应用级代理-Codex与Magpie排障教程]]：关闭 TUN 与系统代理，让 Codex 桌面端和 Magpie 网关各自使用应用级代理
 
 ## 问题排查
 
